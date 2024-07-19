@@ -1,3 +1,52 @@
 body{
-    background-color: black;
+    background-color: #DC0A2D;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.titulo{
+    column-gap: 35px;
+    align-items: center;
+    margin: 0px 30px 0px 30px;
+    height: 100px;
+}
+.buscar{
+    background-color: white;
+    margin: 5px 30px 5px 30px;
+    border-radius: 50px;
+    width: 70vw;
+    height: 52px;
+    border-color: transparent;
+    align-items: center;
+}
+.inputBuscar{   
+    border-radius: 50px;
+    width: 62vw;
+    height: 42px;
+    border-color: transparent;
+    font-size: 18px;
+    padding: 0px 15px 0px 15px;
+}
+.inputBuscar:focus {
+    outline: none;
+}
+.iconBuscar{
+    width: 22px;
+    height: 22px;
+    margin: 0px 0px 0px 15px;
+}
+h1{
+    font-size: 60px;
+    color: white;
+    margin: 0px;
+}
+.pokedexIcon{
+    width: 60px;
+    height: 60px;
 }
