@@ -25,7 +25,7 @@ h1{
 .dTitulo{
     column-gap: 35px;
     align-items: center;
-    margin: 0px /*30px 0px 30px*/;
+    margin: 0px;
     height: 100px;
 }
 .dBuscar{
