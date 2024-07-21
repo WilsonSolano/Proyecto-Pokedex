@@ -22,7 +22,7 @@ header{
 }
 .regresar{
     padding: 10px 20px 10px 40px;
-    background-image: url(/img/regresarIco.png);
+    background-image: url(../img/regresarIco.png);
     background-repeat: no-repeat;
     background-position: 10px center;
     background-size: 45px 45px;
@@ -163,7 +163,9 @@ hr{
     justify-content: center;
 }
 ul{
+    padding: 0px;
     margin: 0;
+    list-style: none;
 }
 li{
     font-weight: 700;
