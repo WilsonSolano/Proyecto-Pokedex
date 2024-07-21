@@ -198,6 +198,10 @@ meter::-webkit-meter-optimum-value {
 }
 
 @media (max-width: 750px){
+    .dRegresar{
+        align-items: center;
+        margin: 0px;
+    }
     main{
         background-image: linear-gradient(to bottom, transparent 19%, #FFFFFF 19%);
     }
@@ -242,6 +246,10 @@ meter::-webkit-meter-optimum-value {
 @media (max-width: 365px){
     main{
         background-image: linear-gradient(to bottom, transparent 17%, #FFFFFF 17%);
+    }
+    .titulo{
+        font-size: 25px;
+        margin: 0px;
     }
     .imgPokemon{
         width: 230px;
