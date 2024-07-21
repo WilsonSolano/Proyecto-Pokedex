@@ -195,36 +195,64 @@ meter::-webkit-meter-optimum-value {
     background:#74CB48;
 }
 
-@media (max-width: 768px){
+@media (max-width: 750px){
     main{
-        background-image: linear-gradient(to bottom, transparent 22%, #FFFFFF 22%);
+        background-image: linear-gradient(to bottom, transparent 19%, #FFFFFF 19%);
+    }
+    .titulo{
+        font-size: 30px;
+    }
+    .nPokemon{
+        font-size: 20px;
     }
     .imgPokemon{
-        width: 270px;
-        height: 270px;
+        width: 250px;
+        height: 250px;
     }
     .izq{
-        margin: 0px 12vw 0px 0px;
+        margin: 0px 10px 0px 0px;
     }
     .dere{
-        margin: 0px 0px 0px 12vw;    
-    }
-    .cuadroBlanco{
-        top: 40vh;
-        width: 98%;
-        height: 60vh;
+        margin: 0px 0px 0px 10px;    
     }
     .iconPokeball{
         width: 300px;
         height: 300px;
     }
+    .iconosSobre{
+        width: 18px;
+        height: 18px;
+        margin: 0px 15px 0px 0px;
+    }
+    .tSobre{
+        font-size: 14px;
+    }
     hr{
-        margin: 0px 22px 0px 22px;
+        margin: 0px 18px 0px 18px;
     }
     .descripcion{
         text-align: justify;
     }
     meter{
-        width: 233px;
+        width: 133px;
+    }
+}
+@media (max-width: 365px){
+    main{
+        background-image: linear-gradient(to bottom, transparent 17%, #FFFFFF 17%);
+    }
+    .imgPokemon{
+        width: 230px;
+        height: 230px;
+    }
+    .izq{
+        margin: 0px 10px 0px 0px;
+    }
+    .dere{
+        margin: 0px 0px 0px 10px;    
+    }
+    .iconPokeball{
+        width: 230px;
+        height: 230px;
     }
 }
