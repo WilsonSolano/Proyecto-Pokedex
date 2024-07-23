@@ -23,7 +23,7 @@ h1{
     margin: 0px;
 }
 .dTitulo{
-    column-gap: 35px;
+    column-gap: 30px;
     align-items: center;
     margin: 0px;
     height: 100px;
@@ -97,4 +97,34 @@ main{
     grid-row: 3 / 4;
     margin: 0px;
     text-align: center;
+}
+@media (max-width: 750px){
+    h1{
+        font-size: 38px;
+    }
+    .pokedexIcon{
+        width: 38px;
+        height: 38px;
+    }    
+    .dBuscar{
+        width: 80%;
+        height: 52px;
+    }
+    .cuerpo {
+        width: 104px;
+        height: 108px;
+        margin: 10px 0px 10px 0px;
+    }
+    .nPokemon {
+        font-size: 8px;
+    }
+    
+    .imgPokemon {
+        width: 48px;
+        height: 48px;
+    }
+    .nombrePokemon {
+        margin-top: 5px;
+        font-size: 14px;
+    }
 }
