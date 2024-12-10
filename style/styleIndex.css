@@ -2,10 +2,15 @@ body{
     background-color: #DC0A2D;
     font-family: 'Poppins', sans-serif;
 }
-
 .flex{
     display: flex;
     flex-wrap: wrap;
+}
+a {
+    text-decoration: none;
+    border: none;
+    padding: 0;
+    margin: 0;
 }
 
 /*Header*/
@@ -23,7 +28,7 @@ h1{
     margin: 0px;
 }
 .dTitulo{
-    column-gap: 35px;
+    column-gap: 30px;
     align-items: center;
     margin: 0px;
     height: 100px;
@@ -52,6 +57,18 @@ h1{
     width: 22px;
     height: 22px;
     margin: 0px 0px 0px 15px;
+}
+.btnEnviar{
+    padding: 15px;
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+.btnEnviar:hover{
+    background-color: #DC0A2D;
+    border-radius: 50%;
+    color: #ffffff;
 }
 .ordenar{
     height: 52px;
@@ -97,4 +114,72 @@ main{
     grid-row: 3 / 4;
     margin: 0px;
     text-align: center;
+}
+@media (max-width: 750px){
+    h1{
+        font-size: 38px;
+    }
+    .pokedexIcon{
+        width: 38px;
+        height: 38px;
+    }    
+    .dBuscar{
+        width: 80%;
+        height: 52px;
+    }
+    .inputBuscar{   
+        width: 60%;
+        height: 42px;
+        font-size: 16px;
+        padding: 0px 15px 0px 15px;
+    }
+    .iconBuscar{
+        width: 18px;
+        height: 18px;
+        margin: 0px 0px 0px 15px;
+    }
+    .cuerpo {
+        width: 154px;
+        height: 158px;
+        margin: 10px 0px 10px 0px;
+    }
+    .nPokemon {
+        font-size: 12px;
+    }
+    
+    .imgPokemon {
+        width: 68px;
+        height: 68px;
+    }
+    .nombrePokemon {
+        margin-top: 5px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 365px){
+    .inputBuscar{   
+        width: 55%;
+    }
+    .iconBuscar{
+        width: 18px;
+        height: 18px;
+        margin: 0px 0px 0px 10px;
+    }
+    .cuerpo {
+        width: 144px;
+        height: 148px;
+        margin: 10px 0px 10px 0px;
+    }
+    .nPokemon {
+        font-size: 12px;
+    }
+    
+    .imgPokemon {
+        width: 68px;
+        height: 68px;
+    }
+    .nombrePokemon {
+        margin-top: 5px;
+        font-size: 16px;
+    }
 }
